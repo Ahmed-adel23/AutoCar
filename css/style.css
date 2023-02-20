@@ -111,4 +111,6 @@ h2{
 .cards .card-body {
     background-color: rgb(228, 222, 222);
 }
-
+.client img{
+    outline: 7px solid rgba(11, 6, 160, 0.788);
+}
