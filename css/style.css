@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+
+@media (min-width:500px){
+    .home-text{
+        text-align: center;
+    }
+.login{
+    margin-top: 10px;
+}   
+}
+@media (min-width:576px){
+    .home-text{
+        text-align: center;
+    }
+.login{
+    margin-top: 10px;
+}   
+}
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+    .login{
+        margin-top: 0px;
+    }
+    
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+    .home-text{
+        text-align: left;
+    }
+.login{
+    margin-top: 0px;
+}
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+.navbar .form-btn .btn {
+    margin-left: 10px;
+}
+.navbar-brand{
+    transition: 0.3s;
+}
+
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,
+                -10px -10px 20px white;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px black;
+}
+h2{
+    text-shadow: 1px 1px 0px black !important;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(209, 208, 208, 0.3);
+    border-radius: 8px;
+}
+
+.wel{
+    background-color: rgb(56, 56, 56) !important;
+}
+
+     .btn{
+        background: rgb(6, 3, 78) !important;
+        border: none !important;
+    }
+    .btn:hover{
+        background: rgb(11, 6, 160) !important;
+
+    }
+    .accordion-button:hover{
+        background: rgb(11, 6, 160) !important;
+        color: whitesmoke;
+    }
+
+.image{
+    background-attachment: fixed;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-1{
+    background-image: url(../images/6852137_28532.jpg);
+
+}
+.image-2{
+    background-image: url(../images/fast-blue-car-road.jpg);
+
+}
+/* ///////// */
+.cards .card-body {
+    background-color: rgb(228, 222, 222);
+}
+
