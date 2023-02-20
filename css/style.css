@@ -114,3 +114,6 @@ h2{
 .client img{
     outline: 7px solid rgba(11, 6, 160, 0.788);
 }
+.submit{
+    background-color: rgb(71, 130, 238) !important;
+}
