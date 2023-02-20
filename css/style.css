@@ -6,7 +6,17 @@
 a{
     text-decoration: none !important;
 }
-
+@media (min-width:368px){
+    .home-text{
+        text-align: center;
+    }
+.login{
+    margin-top: 10px;
+}
+    .carousel-item img { 
+        height: 60vh !important;
+    }
+}
 @media (min-width:500px){
     .home-text{
         text-align: center;
@@ -15,7 +25,7 @@ a{
     margin-top: 10px;
 }
     .carousel-item img { 
-        height: 40vh !important;
+        height: 60vh !important;
     }
 }
 @media (min-width:576px){
